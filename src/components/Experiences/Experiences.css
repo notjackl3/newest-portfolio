@@ -1,0 +1,27 @@
+.experience {
+  color: var(--clr-fg-alt);
+}
+
+.vertical-timeline {
+    padding: 0;
+    width: 80%;
+}
+
+.vertical-timeline-element-content {
+    padding: 1.5em 1em 0.5em 1em;
+    margin: 0 0 2em 0;
+    background-color: var(--clr-bg);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+                rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.vertical-timeline-element-content p {
+    margin-top: 0.7em;
+    margin-bottom: 1em;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+
+.current {
+    color: var(--clr-primary);
+}

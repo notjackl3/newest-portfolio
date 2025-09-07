@@ -31,6 +31,17 @@ const Navbar = () => {
           </li>
         ) : null}
 
+
+        <li className='nav__list-item'>
+          <a
+            href='#experiences'
+            onClick={toggleNavList}
+            className='link link--nav'
+          >
+            Experiences
+          </a>
+        </li>
+
         {skills.length ? (
           <li className='nav__list-item'>
             <a
