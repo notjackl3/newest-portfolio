@@ -29,8 +29,7 @@ const projects = [
     description:
       'A feature-based resume builder, helps students craft their resume easily following jake\'s template.',
     stack: ['Python/Django', 'Javascript/React', 'Tailwind', 'AWS'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/notjackl3/jake-resume-for-me',
     image: 'resume-for-me.png',
   },
   {
@@ -38,8 +37,8 @@ const projects = [
     description:
       'An interactive, 3D map, allows students to find the perfect study spots around the campus!',
     stack: ['Python/Django', 'Mapbox', 'Posgresql'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/notjackl3/utm-live',
+    livePreview: 'utm-live.onrender.com/',
     image: 'utm-live.png',
   },
   {
@@ -47,8 +46,7 @@ const projects = [
     description:
       'An image gallery using many cloud technologies, users can upload/download images publicly',
     stack: ['Python/FastAPI', 'AWS'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/notjackl3/image-gallery',
     image: 'image-gallery.png',
   },
   {
@@ -56,8 +54,7 @@ const projects = [
     description:
       'A scheduling app, to create personalized timetables, share bookings, and manage tasks.',
     stack: ['Python/Django', 'Javascript', 'Bootstrap', 'Postgres'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/notjackl3/organese',
     image: 'organese.png',
   },
   {
@@ -65,8 +62,7 @@ const projects = [
     description:
       'A dynamic job searcher, hunts for latest posts, analyse market demand, and write cover letters.',
     stack: ['Python/Django', 'Beautiful Soup', 'OpenAI', 'Postgres', 'Matplotlib', 'AWS'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/notjackl3/job-hunter',
     image: 'job-hunter.png',
   },
   {
@@ -74,8 +70,7 @@ const projects = [
     description:
       'A version control app, users can track real-time changes between two offline Word documents.',
     stack: ['Python/Flask', 'Python-docx'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/notjackl3/word-diff',
     image: 'word-diff.png',
   },
   {
@@ -83,8 +78,7 @@ const projects = [
     description:
       'An unlimited storage app, losslessly compresses/retrieves any files into/from Youtube videos.',
     stack: ['Python', 'Javascript', 'OpenCV', 'Numpy', 'Google Cloud Platform', 'AWS'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/notjackl3/youtube-as-a-service',
     image: 'yaas.png',
   },
   {
@@ -92,87 +86,12 @@ const projects = [
     description:
       'A basic resume builder, tailors resumes and produce keyword-optimized PDFs for ATS scoring',
     stack: ['Python', 'OpenAI', 'Tkinter', 'PyQt5'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/notjackl3/resume-builder',
     image: 'resume-builder.png',
   },
 ]
 
 const experiences = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
-  {
-    name: 'Resume For Me',
-    description:
-      'A feature-based resume builder, helps students craft their resume easily following jake\'s template.',
-    stack: ['Python/Django', 'Javascript/React', 'Tailwind', 'AWS'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'resume-for-me.png',
-  },
-  {
-    name: 'UTM Live', 
-    description:
-      'An interactive, 3D map, allows students to find the perfect study spots around the campus!',
-    stack: ['Python/Django', 'Mapbox', 'Posgresql'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'utm-live.png',
-  },
-  {
-    name: 'Image Gallery',
-    description:
-      'An image gallery using many cloud technologies, users can upload/download images publicly',
-    stack: ['Python/FastAPI', 'AWS'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'image-gallery.png',
-  },
-  {
-    name: 'Organese',
-    description:
-      'A scheduling app, to create personalized timetables, share bookings, and manage tasks.',
-    stack: ['Python/Django', 'Javascript', 'Bootstrap', 'Postgres'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'organese.png',
-  },
-  {
-    name: 'Job Hunter',
-    description:
-      'A dynamic job searcher, hunts for latest posts, analyse market demand, and write cover letters.',
-    stack: ['Python/Django', 'Beautiful Soup', 'OpenAI', 'Postgres', 'Matplotlib', 'AWS'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'job-hunter.png',
-  },
-  {
-    name: 'Word Diff',
-    description:
-      'A version control app, users can track real-time changes between two offline Word documents.',
-    stack: ['Python/Flask', 'Python-docx'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'word-diff.png',
-  },
-  {
-    name: 'Youtube as a Service',
-    description:
-      'An unlimited storage app, losslessly compresses/retrieves any files into/from Youtube videos.',
-    stack: ['Python', 'Javascript', 'OpenCV', 'Numpy', 'Google Cloud Platform', 'AWS'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'yaas.png',
-  },
-  {
-    name: 'Resume Builder',
-    description:
-      'A basic resume builder, tailors resumes and produce keyword-optimized PDFs for ATS scoring',
-    stack: ['Python', 'OpenAI', 'Tkinter', 'PyQt5'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'resume-builder.png',
-  },
 ]
 
 const skills = [

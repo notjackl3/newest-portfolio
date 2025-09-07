@@ -4,8 +4,7 @@ import { experiences } from '../../portfolio'
 import './Experiences.css'
 
 const Experiences = () => {
-  if (!experiences.length) return null
-
+  if (experiences.length) return null
   return (
     <section id='experiences' className='section experiences'>
       <h2 className='section__title'>Experiences</h2>
