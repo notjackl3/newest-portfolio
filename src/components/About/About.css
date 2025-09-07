@@ -9,6 +9,7 @@
 
 .about__role {
   margin-top: 0.2em;
+  font-size: 2em;
 }
 
 .about__desc {
@@ -46,7 +47,6 @@
 
 @media (max-width: 600px) {
   .app .about {
-    align-items: flex-start;
     margin-top: 2em;
   }
 
@@ -56,6 +56,10 @@
 
   .about__intro {
     align-items: center;
+  }
+
+  .about__role {
+    font-size: 1.5em;
   }
 }
 
