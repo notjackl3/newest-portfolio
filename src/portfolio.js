@@ -13,7 +13,7 @@ const about = {
   picture: 'portrait.jpg',
 
   description:
-    "❝ I am passionately proactive. You will find me doing the things above expectation and asking a lot of why's and how's. I am also lazy so I will always be curious of how to make things faster and more efficient. ❞",
+    "❝ I am passionately proactive. You will find me doing things above expectation and asking a lot of why's and how's. I am also lazy so I will always be curious of how to make things faster and more efficient. ❞",
   resume: `${process.env.PUBLIC_URL}/resume.pdf`,
   social: {
     linkedin: 'https://www.linkedin.com/in/huu-an-duc-le/',
