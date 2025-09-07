@@ -9,8 +9,6 @@ const About = () => {
   const { name, role, description, resume, social, picture } = about;
   const [{ themeName, toggleTheme }] = useContext(ThemeContext);
 
-  console.log(`${process.env.PUBLIC_URL}/images/${themeName}-${picture}`);
-
   return (
     <div className='about center'>
       <div className='about__header'>

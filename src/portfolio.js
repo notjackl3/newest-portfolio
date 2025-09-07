@@ -1,7 +1,7 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://jack-le.com/',
+  title: ':-)',
 }
 
 
@@ -9,7 +9,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Jack Le',
-  role: 'Software Developer',
+  role: 'Cool Software Developer',
   picture: 'portrait.jpg',
 
   description:
