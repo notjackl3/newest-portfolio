@@ -6,7 +6,7 @@ import { ThemeContext } from '../../contexts/theme'
 import './About.css'
 
 const About = () => {
-  const { name, role, description, resume, social, picture } = about;
+  const { name, role, description, resume1, resume2, social, picture } = about;
   const [{ themeName, toggleTheme }] = useContext(ThemeContext);
 
   return (
@@ -37,10 +37,18 @@ const About = () => {
       </div>
 
       <div className='about__contact center'>
-        {resume && (
-          <a href={resume} download='jack-le-resume.pdf'>
+        {resume1 && (
+          <a href={resume1} download='jack-le-webdev-resume.pdf'>
             <span type='button' className='btn btn--outline'>
-              resume.pdf
+              webdev-resume.pdf
+            </span>
+          </a>
+        )}
+
+        {resume2 && (
+          <a href={resume2} download='jack-le-swe-resume.pdf'>
+            <span type='button' className='btn btn--outline'>
+              swe-resume.pdf
             </span>
           </a>
         )}

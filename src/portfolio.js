@@ -14,7 +14,8 @@ const about = {
 
   description:
     "❝ I am passionately proactive. You will find me doing things above expectation and asking a lot of why's and how's. I am also lazy so I will always be curious of how to make things faster and more efficient. ❞",
-  resume: `${process.env.PUBLIC_URL}/resume.pdf`,
+  resume1: `${process.env.PUBLIC_URL}/jack-le-webdev-resume.pdf`,
+  resume2: `${process.env.PUBLIC_URL}/jack-le-swe-resume.pdf`,
   social: {
     linkedin: 'https://www.linkedin.com/in/huu-an-duc-le/',
     github: 'https://github.com/notjackl3',
