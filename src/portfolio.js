@@ -25,6 +25,14 @@ const about = {
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
+    {
+    name: 'GooseGoGeese (Hack The North 2025)',
+    description:
+      'A minigame that improves your social skills by detecting humans and objects, then series of tasks chosen by your friends must be completed!',
+    stack: ['Python/FastAPI', 'Javascript/React', 'Tailwind', 'YOLO', 'OpenCV', 'MediaPipe'],
+    sourceCode: 'https://github.com/notjackl3/HTN2025',
+    image: 'goosegogeese.png',
+  },
   {
     name: 'Resume For Me',
     description:
