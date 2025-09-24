@@ -18,6 +18,15 @@ const Experiences = () => {
           contentArrowStyle={{ display: 'none' }}
           iconStyle={{ display: 'none' }} 
           style= {{ margin: '0', padding: '0' }}
+          date="University of Toronto • September, 2025 - Present"
+        >
+          <h3 className="vertical-timeline-element-title experience current">Research Assistant</h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentArrowStyle={{ display: 'none' }}
+          iconStyle={{ display: 'none' }} 
+          style= {{ margin: '0', padding: '0' }}
           date="UofT Blueprint • August, 2025 - Present"
         >
           <h3 className="vertical-timeline-element-title experience current">Software Project Lead</h3>
@@ -45,7 +54,7 @@ const Experiences = () => {
           contentArrowStyle={{ display: 'none' }}
           iconStyle={{ display: 'none' }} 
           style= {{ margin: '0', padding: '0' }}
-          date="TRG International • May, 2025 - May, 2028"
+          date="TRG International • May, 2025 - August, 2025"
         >
           <h3 className="vertical-timeline-element-title experience">Standard Operation Procedure Intern</h3>
         </VerticalTimelineElement>
