@@ -18,6 +18,15 @@ const Experiences = () => {
           contentArrowStyle={{ display: 'none' }}
           iconStyle={{ display: 'none' }} 
           style= {{ margin: '0', padding: '0' }}
+          date="GenAI Genesis • October, 2025 - Present"
+        >
+          <h3 className="vertical-timeline-element-title experience current">Director of Operations</h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentArrowStyle={{ display: 'none' }}
+          iconStyle={{ display: 'none' }} 
+          style= {{ margin: '0', padding: '0' }}
           date="University of Toronto • September, 2025 - Present"
         >
           <h3 className="vertical-timeline-element-title experience current">Research Assistant</h3>

@@ -31,3 +31,20 @@
 .project .link--icon {
   margin-left: 0.5em;
 }
+
+.project__title-container {
+  text-align: center;
+}
+
+.project__app-name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.project__hackathon-name {
+  font-weight: 300;
+  opacity: 0.8;
+  font-size: 0.9rem;
+  margin-top: 0.3em;
+  color: var(--clr-fg-alt);
+}

@@ -3,21 +3,41 @@ import GitHubIcon from '@material-ui/icons/GitHub'
 import LaunchIcon from '@material-ui/icons/Launch'
 import './ProjectContainer.css'
 
-const ProjectContainer = ({ project }) => (
-  <div className='project'>
+const ProjectContainer = ({ project }) => {
+  // Check if this is a hackathon project and parse the title
+  const isHackathonProject = project.name.includes('|') || project.name.includes('~')
+  let appName
+  let hackathonName
+  
+  if (isHackathonProject) {
+    const separator = project.name.includes('|') ? '|' : '~'
+    const parts = project.name.split(separator)
+    appName = parts[0].trim()
+    hackathonName = parts[1].trim()
+  }
 
-    {project.image && (<img
-    src={
-      project.image.startsWith("http")
-        ? project.image
-        : `${process.env.PUBLIC_URL}/images/${project.image}`
-    }
-    alt={`${project.name} screenshot`}
-    style={{ width: '100%', objectFit: 'cover' }}
-    />
-    )}
+  return (
+    <div className='project'>
 
-    <h3>{project.name}</h3>
+      {project.image && (<img
+      src={
+        project.image.startsWith("http")
+          ? project.image
+          : `${process.env.PUBLIC_URL}/images/${project.image}`
+      }
+      alt={`${project.name} screenshot`}
+      style={{ width: '100%', objectFit: 'cover' }}
+      />
+      )}
+
+      {isHackathonProject ? (
+        <div className="project__title-container">
+          <h3 className="project__app-name">{appName}</h3>
+          <div className="project__hackathon-name">{hackathonName}</div>
+        </div>
+      ) : (
+        <h3>{project.name}</h3>
+      )}
 
     <p className='project__description'>{project.description}</p>
     {project.stack && (
@@ -50,6 +70,7 @@ const ProjectContainer = ({ project }) => (
       </a>
     )}
   </div>
-)
+  )
+}
 
 export default ProjectContainer

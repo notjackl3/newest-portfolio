@@ -22,17 +22,9 @@ const about = {
   },
 }
 
-const projects = [
-  // projects can be added an removed
+const personalProjects = [
+  // personal projects can be added and removed
   // if there are no projects, Projects section won't show up
-    {
-    name: 'GooseGoGeese',
-    description:
-      '[Hack The North 2025] A minigame that detects humans and objects, then, a series of tasks chosen by your friends must be completed!',
-    stack: ['Python/FastAPI', 'Javascript/React', 'Tailwind', 'YOLO', 'OpenCV', 'MediaPipe'],
-    sourceCode: 'https://github.com/notjackl3/HTN2025',
-    image: 'goosegogeese.png',
-  },
   {
     name: 'Resume For Me',
     description:
@@ -100,6 +92,34 @@ const projects = [
   },
 ]
 
+const hackathonProjects = [
+  // hackathon projects can be added and removed
+  // if there are no projects, Projects section won't show up
+  {
+    name: 'OperAid | TechTO Hackathon',
+    description:
+      'A voice-controled solution for doctor to look up and record patient information.',
+    stack: ['Python/FastAPI', 'Javascript/React', 'Tailwind', 'PostgreSQL/Supabase', 'ElevenLabs', 'OpenAI'],
+    sourceCode: 'https://generous-cogwheel-353742.framer.app/',
+    image: 'operaid.png',
+  },
+  {
+    name: 'GooseGoGeese | Hack The North',
+    description:
+      'A minigame that detects humans and objects, then, a series of tasks chosen by your friends must be completed!',
+    stack: ['Python/FastAPI', 'Javascript/React', 'Tailwind', 'YOLO', 'OpenCV', 'MediaPipe'],
+    sourceCode: 'https://github.com/notjackl3/HTN2025',
+    image: 'goosegogeese.png',
+  },
+  {
+    name: 'Street Roamer S3000 | WallHacks (Winner)',
+    description:
+      'A robot that can detects faulty street lights and bumpy obstacles by just "sensing" the road.',
+    stack: ['C++', 'Arduino'],
+    image: 'street-roamer-s3000.png',
+  },
+]
+
 const experiences = [
 ]
 
@@ -129,4 +149,4 @@ const contact = {
   email: 'huuanducle@gmail.com',
 }
 
-export { header, about, projects, experiences, skills, contact }
+export { header, about, personalProjects, hackathonProjects, experiences, skills, contact }
