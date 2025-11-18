@@ -63,6 +63,15 @@ const Experiences = () => {
           contentArrowStyle={{ display: 'none' }}
           iconStyle={{ display: 'none' }} 
           style= {{ margin: '0', padding: '0' }}
+          date="UTM FinTech Association • Sep, 2025 - Present"
+        >
+          <h3 className="vertical-timeline-element-title experience current">Tech Associate</h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentArrowStyle={{ display: 'none' }}
+          iconStyle={{ display: 'none' }} 
+          style= {{ margin: '0', padding: '0' }}
           date="TRG International • May, 2025 - August, 2025"
         >
           <h3 className="vertical-timeline-element-title experience">Standard Operation Procedure Intern</h3>
